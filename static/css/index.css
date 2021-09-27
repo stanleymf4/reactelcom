@@ -8,6 +8,11 @@
   filter: grayscale(70%);
 }
 
+#firma img {
+  max-width: 50vh;
+  object-fit: cover;
+}
+
 #footer {
   background: linear-gradient(90deg, #1c3643, #273b47 25%, #1e5472);
 }
@@ -48,6 +53,10 @@
 #carousel .overlay .container,
 #carousel .overlay .row {
   height: 100%;
+}
+
+#firma {
+  align-items: center;
 }
 
 
